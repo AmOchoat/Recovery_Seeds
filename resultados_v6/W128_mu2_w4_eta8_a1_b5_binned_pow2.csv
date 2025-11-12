@@ -1,0 +1,2 @@
+W,mu,w,eta,alpha,beta,N,N_valid,excluded_seeds,exception_failures,valid_failures,errors,avg_time_sec,Bmin_avg,Bmax_avg,m_bins,edges_last,NE_bin_avg,C_bin_rate,NE_pref_avg,C_pref_rate,excluded_rate,exception_rate,valid_failure_rate,seed
+128,2,4,8,0.001,0.05,100,10,90,0,0,0,0.0012,32550,194819,8,"[30973, 55602, 80231, 104859, 129487, 154115, 178743, 203371, 227999]","[0.0, 1.9, 0.9, 4.2, 2.2, 1.7, 2.1, 0.0]","[0.9, 0.0, 0.1, 0.0, 0.0, 0.0, 0.0, 0.0]","[0.0, 1.9, 2.8, 7.0, 9.2, 10.9, 13.0, 13.0]","[0.9, 0.9, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]",0.9,0.0,0.0,42

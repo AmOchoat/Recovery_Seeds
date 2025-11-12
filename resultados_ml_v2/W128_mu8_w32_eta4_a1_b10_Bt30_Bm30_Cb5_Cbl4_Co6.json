@@ -1,0 +1,16 @@
+{
+  "status": "EMPTY",
+  "group_id": "W128_mu8_w32_eta4_a1_b10_Bt30_Bm30_Cb5_Cbl4_Co6",
+  "W": 128,
+  "mu": 8,
+  "w": 32,
+  "eta": 4,
+  "alpha": 0.001,
+  "beta": 0.1,
+  "Btime": 1073741824,
+  "Bmemory": 1073741824,
+  "Cbase": 32,
+  "Cblock": 16,
+  "Coracle": 64,
+  "timestamp": 1762854423.3425114
+}
