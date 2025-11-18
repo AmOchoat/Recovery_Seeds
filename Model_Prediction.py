@@ -779,7 +779,7 @@ def generar_parametros_validos(W_vals):
     configuraciones = []
 
     for W in W_vals:
-        max_log_w = 5 #min(5, int.bit_length(W))  # evita w demasiado grandes
+        max_log_w = 4 #min(5, int.bit_length(W))  # evita w demasiado grandes
         w_vals = [2 ** i for i in range(2, max_log_w + 1)]  # ej: [4, 8, 16]
 
         for w in w_vals:
@@ -944,13 +944,13 @@ except Exception:
 print("\n🔍 Ejecutando grid ML (Algoritmo 7 hasta línea 24) con listas de B's ...\n")
 
 # --- Listas de parámetros (igual formato que en MonteCarlo) ---
-W_vals     = [192]                          # longitud total de la semilla
+W_vals     = [129, 192, 256]                          # longitud total de la semilla
 alpha_list = [0.001]                                  # probabilidad flip 0→1
 beta_list  = [0.03, 0.05, 0.10, 0.15, 0.20, 0.25]     # probabilidad flip 1→0
 
 # --- Listas de presupuestos (nuevas) ---
-Btime_list   = [2**30]       # límites de tiempo (puedes añadir más)
-Bmemory_list = [2**30]       # límites de memoria
+Btime_list   = [2**30, 2**50]       # límites de tiempo (puedes añadir más)
+Bmemory_list = [2**30, 2**50]       # límites de memoria
 Cbase_list   = [2**5]         # costo base
 Cblock_list  = [2**4]         # costo por bloque
 Coracle_list = [2**6]         # costo de oráculo

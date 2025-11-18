@@ -13,7 +13,7 @@ e = {2**k for k in range(1, int.bit_length(W_escogido // w_escogido) + 1) if ((2
 
 e_escogido = min(e)
 
-m = {2**k for k in range(1, min(6, e_escogido*w_escogido)+1)}
+m = {2**k for k in range(1, min(5, e_escogido*w_escogido)+1)}
 
 print(f"W = {sorted(W)}")
 print(f"w = {sorted(w)}")
