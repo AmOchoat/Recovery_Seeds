@@ -415,3 +415,7 @@ pip-selfcheck.json
 
 # Ignora los archivos en la carpeta temp
 temp/*
+
+errores_ml_v2/*
+
+resultados_ml_v2/vacios/*

@@ -950,7 +950,7 @@ beta_list  = [0.03, 0.05, 0.10, 0.15, 0.20, 0.25]     # probabilidad flip 1→0
 
 # --- Listas de presupuestos (nuevas) ---
 Btime_list   = [2**30]       # límites de tiempo (puedes añadir más)
-Bmemory_list = [2**30, 2**50]       # límites de memoria
+Bmemory_list = [2**30]       # límites de memoria
 Cbase_list   = [2**5]         # costo base
 Cblock_list  = [2**4]         # costo por bloque
 Coracle_list = [2**6]         # costo de oráculo
@@ -1091,7 +1091,7 @@ for (W, mu, w, eta) in grid:
                                 with open(path_json, "w") as f:
                                     json.dump(data, f, indent=2)
 
-                                rows.append(data)
+#                                rows.append(data)
 
                                 # 4) Liberar memoria por combinación
                                 try:
