@@ -944,7 +944,7 @@ except Exception:
 print("\n🔍 Ejecutando grid ML (Algoritmo 7 hasta línea 24) con listas de B's ...\n")
 
 # --- Listas de parámetros (igual formato que en MonteCarlo) ---
-W_vals     = [128, 256]                          # longitud total de la semilla
+W_vals     = [192]                          # longitud total de la semilla
 alpha_list = [0.001]                                  # probabilidad flip 0→1
 beta_list  = [0.03, 0.05, 0.10, 0.15, 0.20, 0.25]     # probabilidad flip 1→0
 
