@@ -960,8 +960,8 @@ scale         = 10_000
 
 # --- Rutas de salida ---
 model_path     = "ML/modelo_prefijo_FINAL.keras"
-resultados_dir = "resultados_ml_v2"
-errores_dir    = "errores_ml_v2"
+resultados_dir = "resultados_test_errores"
+errores_dir    = "errores_test_errores"
 os.makedirs(resultados_dir, exist_ok=True)
 os.makedirs(errores_dir, exist_ok=True)
 
